@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('print_message') {
       steps {
         echo 'First Step of packer-windows-2k19'
       }
