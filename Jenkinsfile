@@ -10,6 +10,5 @@ pipeline {
   }
   environment {
     Dev = 'dev1'
-    Production = 'prod1'
   }
 }
