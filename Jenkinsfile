@@ -8,6 +8,11 @@ pipeline {
     }
 
   }
+  stage('pull from SCM'){
+    steps{
+      echo 'from source build packer data into artifact'
+    }
+  }
   environment {
     Dev = 'dev1'
   }
